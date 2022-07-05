@@ -41,6 +41,7 @@ public class CharacterMenu : MonoBehaviour
     {
         characterSelectionSprite.sprite = GameManager.instance.playerSprites[currentCharacterSelection];
         GameManager.instance.player.SwapSprite(currentCharacterSelection);
+        GameManager.instance.player.SwapAnimationController(currentCharacterSelection);
         GameManager.instance.preferredSkin = currentCharacterSelection;
     }
 

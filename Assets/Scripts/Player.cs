@@ -56,6 +56,11 @@ public class Player : Mover
         spriteRenderer.sprite = GameManager.instance.playerSprites[skinID];
     }
 
+    public void SwapAnimationController(int skinID)
+    {
+        anim.runtimeAnimatorController = GameManager.instance.playerAnimationControllers[skinID];
+    }
+
     public void OnLevelUp()
     {
         maxHitpoint++;
