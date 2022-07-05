@@ -25,7 +25,8 @@ public class Mover : Fighter
 
     protected virtual void UpdateMotor(Vector3 input)
     {
-        anim.SetTrigger("Run");
+        if (isRunning)
+            anim.SetTrigger("Run");
 
         //Reset MoveDelta
         moveDelta = new Vector3(input.x * xSpeed, input.y * ySpeed, 0);

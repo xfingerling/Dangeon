@@ -9,7 +9,6 @@ public class Enemy : Mover
     public float triggerLength = 1;
     public float chaseLength = 5;
     private bool isChasing;
-    private bool isCollidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
 

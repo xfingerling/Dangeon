@@ -4,7 +4,7 @@ public class HealingFountain : Collidable
 {
     public int healingAmount = 1;
 
-    private float healCooldown = 1;
+    private float healCooldown = 0.5f;
     private float lastHeal;
 
     protected override void OnCollide(Collider2D collider)

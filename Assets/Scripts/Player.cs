@@ -33,14 +33,12 @@ public class Player : Mover
     {
         isRunning = HandleInput();
 
-        if (isAlive && isRunning)
-        {
-            UpdateMotor(new Vector3(horizontal, vertical, 0));
-        }
-        else
-        {
+        if (!isRunning)
             anim.SetTrigger("Stand");
-        }
+
+        if (isAlive)
+            UpdateMotor(new Vector3(horizontal, vertical, 0));
+
     }
 
     private bool HandleInput()
