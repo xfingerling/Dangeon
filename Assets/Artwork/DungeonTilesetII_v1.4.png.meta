@@ -254,13 +254,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_6
+      name: player_6
       rect:
         serializedVersion: 2
-        x: 208
-        y: 496
+        x: 224
+        y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,13 +275,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_7
+      name: player_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 496
+        x: 240
+        y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,13 +422,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_14
+      name: player_5
       rect:
         serializedVersion: 2
-        x: 128
+        x: 208
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,13 +443,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_15
+      name: player_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 192
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,13 +464,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_16
+      name: player_3
       rect:
         serializedVersion: 2
-        x: 160
+        x: 176
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,13 +485,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_17
+      name: player_2
       rect:
         serializedVersion: 2
-        x: 176
+        x: 160
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,13 +506,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_18
+      name: player_1
       rect:
         serializedVersion: 2
-        x: 192
+        x: 144
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,13 +527,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_19
+      name: player_0
       rect:
         serializedVersion: 2
-        x: 208
+        x: 128
         y: 480
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,55 +548,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_20
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 480
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69c59c8657b0dfa4eab39e33374f55d0
-      internalID: 1882712894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_21
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 480
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ee6f969239edad4c9922e9f01873f12
-      internalID: -125499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_22
+      name: player_8
       rect:
         serializedVersion: 2
         x: 256
-        y: 480
+        y: 483
         width: 16
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,7 +577,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2396,7 +2354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_127
+      name: Skeleton_0
       rect:
         serializedVersion: 2
         x: 368
@@ -2417,7 +2375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_128
+      name: Skeleton_1
       rect:
         serializedVersion: 2
         x: 384
@@ -2438,7 +2396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_129
+      name: Skeleton_2
       rect:
         serializedVersion: 2
         x: 400
@@ -2459,7 +2417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_130
+      name: Skeleton_3
       rect:
         serializedVersion: 2
         x: 416
@@ -2480,7 +2438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_131
+      name: Skeleton_4
       rect:
         serializedVersion: 2
         x: 432
@@ -2501,7 +2459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_132
+      name: Skeleton_5
       rect:
         serializedVersion: 2
         x: 448
@@ -2522,7 +2480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_133
+      name: Skeleton_6
       rect:
         serializedVersion: 2
         x: 464
@@ -2543,7 +2501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_134
+      name: Skeleton_7
       rect:
         serializedVersion: 2
         x: 480
@@ -10216,7 +10174,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10237,7 +10195,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10258,7 +10216,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10279,7 +10237,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10300,7 +10258,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10351,6 +10309,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_83: -208500248
       DungeonTilesetII_v1.4_124: 1171035547
       DungeonTilesetII_v1.4_428: 107767380
+      Skeleton_3: -1463063392
       DungeonTilesetII_v1.4_11: 51944988
       DungeonTilesetII_v1.4_470: 41483912
       DungeonTilesetII_v1.4_324: -794316522
@@ -10361,8 +10320,8 @@ TextureImporter:
       DungeonTilesetII_v1.4_185: 982057267
       DungeonTilesetII_v1.4_419: -202805109
       DungeonTilesetII_v1.4_122: -591130720
-      DungeonTilesetII_v1.4_33: 1342875964
       DungeonTilesetII_v1.4_515: -920573597
+      DungeonTilesetII_v1.4_33: 1342875964
       DungeonTilesetII_v1.4_315: -1315999862
       DungeonTilesetII_v1.4_152: 686181313
       DungeonTilesetII_v1.4_148: -1935049019
@@ -10387,7 +10346,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_229: -1522510879
       DungeonTilesetII_v1.4_141: 801635802
       DungeonTilesetII_v1.4_463: 321623447
-      DungeonTilesetII_v1.4_15: -343451561
       DungeonTilesetII_v1.4_38: -1799185181
       DungeonTilesetII_v1.4_391: 340412918
       DungeonTilesetII_v1.4_158: -824856157
@@ -10402,24 +10360,23 @@ TextureImporter:
       DungeonTilesetII_v1.4_425: -580792377
       DungeonTilesetII_v1.4_223: -1529967939
       DungeonTilesetII_v1.4_493: 2063191985
-      DungeonTilesetII_v1.4_130: -1463063392
       DungeonTilesetII_v1.4_383: -577981529
+      DungeonTilesetII_v1.4_478: -1309605406
       DungeonTilesetII_v1.4_82: 425556802
       DungeonTilesetII_v1.4_394: 1932383631
       DungeonTilesetII_v1.4_189: 1151341674
-      DungeonTilesetII_v1.4_478: -1309605406
+      player_0: 358653709
+      DungeonTilesetII_v1.4_518: 102127129
       DungeonTilesetII_v1.4_375: 1850925024
       DungeonTilesetII_v1.4_143: -443174321
-      DungeonTilesetII_v1.4_518: 102127129
       DungeonTilesetII_v1.4_276: 133180306
       DungeonTilesetII_v1.4_60: 1061697964
       DungeonTilesetII_v1.4_2: 2147181377
       DungeonTilesetII_v1.4_319: 2092778746
       DungeonTilesetII_v1.4_340: 1800891267
-      DungeonTilesetII_v1.4_14: 1757981325
+      DungeonTilesetII_v1.4_441: 509724985
       DungeonTilesetII_v1.4_53: 952325217
       DungeonTilesetII_v1.4_352: 1994894760
-      DungeonTilesetII_v1.4_441: 509724985
       DungeonTilesetII_v1.4_268: -1306429040
       DungeonTilesetII_v1.4_476: -479495907
       DungeonTilesetII_v1.4_483: 711296140
@@ -10445,7 +10402,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_513: -1784162978
       DungeonTilesetII_v1.4_511: 1901761320
       DungeonTilesetII_v1.4_209: 1961740646
-      DungeonTilesetII_v1.4_22: 324687618
       DungeonTilesetII_v1.4_102: -1514979382
       DungeonTilesetII_v1.4_415: 1479503201
       DungeonTilesetII_v1.4_344: -849401910
@@ -10467,13 +10423,13 @@ TextureImporter:
       DungeonTilesetII_v1.4_101: 1336133224
       DungeonTilesetII_v1.4_236: -1106292339
       DungeonTilesetII_v1.4_215: -1278483780
+      DungeonTilesetII_v1.4_156: -775831442
       DungeonTilesetII_v1.4_438: 1683715028
       DungeonTilesetII_v1.4_31: -408900002
       DungeonTilesetII_v1.4_169: 441253696
       DungeonTilesetII_v1.4_256: 48430798
-      DungeonTilesetII_v1.4_156: -775831442
-      DungeonTilesetII_v1.4_454: -1808343278
       DungeonTilesetII_v1.4_286: 350885064
+      DungeonTilesetII_v1.4_454: -1808343278
       DungeonTilesetII_v1.4_287: 1581922898
       DungeonTilesetII_v1.4_30: -52361055
       DungeonTilesetII_v1.4_250: -1291097264
@@ -10493,6 +10449,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_277: -1943916751
       DungeonTilesetII_v1.4_107: 827070937
       DungeonTilesetII_v1.4_4: 1792204005
+      player_8: 324687618
       DungeonTilesetII_v1.4_21: -125499
       DungeonTilesetII_v1.4_225: -1769743275
       DungeonTilesetII_v1.4_338: -1293432111
@@ -10513,7 +10470,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_191: 2071450329
       DungeonTilesetII_v1.4_418: -1885177504
       DungeonTilesetII_v1.4_332: 53780682
-      DungeonTilesetII_v1.4_129: -1520407230
       DungeonTilesetII_v1.4_402: -1224284886
       DungeonTilesetII_v1.4_379: -146144748
       DungeonTilesetII_v1.4_42: 1639939084
@@ -10530,6 +10486,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_52: -210479674
       DungeonTilesetII_v1.4_99: 1536671033
       DungeonTilesetII_v1.4_178: 1790268113
+      player_3: 1368644766
       DungeonTilesetII_v1.4_466: -1088757091
       DungeonTilesetII_v1.4_474: -1971942593
       DungeonTilesetII_v1.4_239: -1218186272
@@ -10543,13 +10500,13 @@ TextureImporter:
       DungeonTilesetII_v1.4_175: -1276423424
       DungeonTilesetII_v1.4_92: -166348477
       DungeonTilesetII_v1.4_182: -1384189
-      DungeonTilesetII_v1.4_127: 1206444941
       DungeonTilesetII_v1.4_170: -1352446568
       DungeonTilesetII_v1.4_445: -510568577
       DungeonTilesetII_v1.4_34: 1106238311
       DungeonTilesetII_v1.4_325: 1487035269
       DungeonTilesetII_v1.4_62: -598701278
-      DungeonTilesetII_v1.4_134: -150818092
+      Skeleton_1: -1669039309
+      player_1: -985795829
       DungeonTilesetII_v1.4_281: 934558161
       DungeonTilesetII_v1.4_448: -574254386
       DungeonTilesetII_v1.4_467: 1161675034
@@ -10564,7 +10521,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_400: -1126132872
       DungeonTilesetII_v1.4_423: -859944715
       DungeonTilesetII_v1.4_95: -1349028651
-      DungeonTilesetII_v1.4_7: -285685895
       DungeonTilesetII_v1.4_252: -1795120004
       DungeonTilesetII_v1.4_331: 823623103
       DungeonTilesetII_v1.4_354: -370889232
@@ -10576,7 +10532,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_157: 847846569
       DungeonTilesetII_v1.4_44: -1653674275
       DungeonTilesetII_v1.4_177: 446346353
-      DungeonTilesetII_v1.4_16: 1368644766
       DungeonTilesetII_v1.4_172: 1778415042
       DungeonTilesetII_v1.4_381: -1470278286
       DungeonTilesetII_v1.4_187: 2114145071
@@ -10586,39 +10541,39 @@ TextureImporter:
       DungeonTilesetII_v1.4_392: 1556895077
       DungeonTilesetII_v1.4_481: 1568309417
       DungeonTilesetII_v1.4_254: 1042067388
+      Skeleton_0: 1206444941
       DungeonTilesetII_v1.4_427: 1371611462
       DungeonTilesetII_v1.4_440: 1860285971
       DungeonTilesetII_v1.4_309: 1393664718
-      DungeonTilesetII_v1.4_132: -1449182236
       DungeonTilesetII_v1.4_269: 2042060042
       DungeonTilesetII_v1.4_273: -1338138760
-      DungeonTilesetII_v1.4_17: -508726108
+      Skeleton_2: -1520407230
       DungeonTilesetII_v1.4_35: -1444022329
       DungeonTilesetII_v1.4_461: -29622698
       DungeonTilesetII_v1.4_260: -2064433062
       DungeonTilesetII_v1.4_174: 756165201
       DungeonTilesetII_v1.4_267: 1147436568
       DungeonTilesetII_v1.4_166: -976382596
-      DungeonTilesetII_v1.4_133: -12464182
       DungeonTilesetII_v1.4_119: -1049221807
       DungeonTilesetII_v1.4_154: -2099776691
-      DungeonTilesetII_v1.4_165: 1345348342
-      DungeonTilesetII_v1.4_160: -419148520
       DungeonTilesetII_v1.4_230: -1267464462
+      DungeonTilesetII_v1.4_160: -419148520
+      DungeonTilesetII_v1.4_292: 831737846
       DungeonTilesetII_v1.4_112: 1672081479
       DungeonTilesetII_v1.4_198: 1276439692
       DungeonTilesetII_v1.4_364: 1587309754
-      DungeonTilesetII_v1.4_292: 831737846
+      DungeonTilesetII_v1.4_165: 1345348342
+      DungeonTilesetII_v1.4_362: -350611872
       DungeonTilesetII_v1.4_525: -1566812064
       DungeonTilesetII_v1.4_294: -345170773
-      DungeonTilesetII_v1.4_362: -350611872
       DungeonTilesetII_v1.4_345: 272790602
-      DungeonTilesetII_v1.4_72: -991395252
       DungeonTilesetII_v1.4_413: -685466369
+      DungeonTilesetII_v1.4_72: -991395252
       DungeonTilesetII_v1.4_333: 23565485
       DungeonTilesetII_v1.4_147: 1501668327
       DungeonTilesetII_v1.4_0: 147541141
       DungeonTilesetII_v1.4_214: 1232574608
+      player_2: -508726108
       DungeonTilesetII_v1.4_263: 268485021
       DungeonTilesetII_v1.4_367: 1041822436
       DungeonTilesetII_v1.4_382: -2009335028
@@ -10635,33 +10590,33 @@ TextureImporter:
       DungeonTilesetII_v1.4_29: 534106632
       DungeonTilesetII_v1.4_97: -896594604
       DungeonTilesetII_v1.4_159: 36671719
-      DungeonTilesetII_v1.4_417: -681844714
+      DungeonTilesetII_v1.4_213: 1839452845
       DungeonTilesetII_v1.4_76: 1469514814
       DungeonTilesetII_v1.4_350: -1575453425
-      DungeonTilesetII_v1.4_213: 1839452845
-      DungeonTilesetII_v1.4_45: -2088595667
       DungeonTilesetII_v1.4_366: -1051236849
+      DungeonTilesetII_v1.4_417: -681844714
+      DungeonTilesetII_v1.4_45: -2088595667
       DungeonTilesetII_v1.4_217: -1499113399
       DungeonTilesetII_v1.4_25: 989132669
+      DungeonTilesetII_v1.4_516: 1964750044
       DungeonTilesetII_v1.4_472: 363224385
       DungeonTilesetII_v1.4_316: 699740049
-      DungeonTilesetII_v1.4_516: 1964750044
       DungeonTilesetII_v1.4_283: 21971581
       DungeonTilesetII_v1.4_349: 1518458070
       DungeonTilesetII_v1.4_285: -1277054429
       DungeonTilesetII_v1.4_489: 931546247
       DungeonTilesetII_v1.4_288: 1297751965
+      player_7: -285685895
       DungeonTilesetII_v1.4_74: -283550475
       DungeonTilesetII_v1.4_88: 569639275
       DungeonTilesetII_v1.4_512: -648987764
       DungeonTilesetII_v1.4_265: 1695257540
       DungeonTilesetII_v1.4_393: 579770729
-      DungeonTilesetII_v1.4_98: -249066791
+      DungeonTilesetII_v1.4_443: -1529841427
       DungeonTilesetII_v1.4_155: -452923461
       DungeonTilesetII_v1.4_262: 510599100
-      DungeonTilesetII_v1.4_299: 2013852396
+      DungeonTilesetII_v1.4_98: -249066791
       DungeonTilesetII_v1.4_302: 506302346
-      DungeonTilesetII_v1.4_443: -1529841427
       DungeonTilesetII_v1.4_149: 1202643503
       DungeonTilesetII_v1.4_505: -912996800
       DungeonTilesetII_v1.4_135: -1107667749
@@ -10671,11 +10626,13 @@ TextureImporter:
       DungeonTilesetII_v1.4_144: 1484196730
       DungeonTilesetII_v1.4_517: -940458303
       DungeonTilesetII_v1.4_193: -1123973264
+      DungeonTilesetII_v1.4_299: 2013852396
       DungeonTilesetII_v1.4_404: -956241258
       DungeonTilesetII_v1.4_377: 2016177158
       DungeonTilesetII_v1.4_522: -1879347919
       DungeonTilesetII_v1.4_494: 773361540
       DungeonTilesetII_v1.4_5: 967976838
+      Skeleton_5: -1449182236
       DungeonTilesetII_v1.4_266: -1184496790
       DungeonTilesetII_v1.4_301: -631923301
       DungeonTilesetII_v1.4_208: 2107876796
@@ -10698,9 +10655,11 @@ TextureImporter:
       DungeonTilesetII_v1.4_308: -1267299037
       DungeonTilesetII_v1.4_24: 1803297466
       DungeonTilesetII_v1.4_323: -621933470
+      player_5: 1757981325
       DungeonTilesetII_v1.4_73: 877826819
       DungeonTilesetII_v1.4_32: -2072203454
       DungeonTilesetII_v1.4_121: -1355179979
+      player_4: -343451561
       DungeonTilesetII_v1.4_372: -2001658933
       DungeonTilesetII_v1.4_457: 815418768
       DungeonTilesetII_v1.4_258: -2003165732
@@ -10710,14 +10669,12 @@ TextureImporter:
       DungeonTilesetII_v1.4_151: -30422534
       DungeonTilesetII_v1.4_89: 1784693656
       DungeonTilesetII_v1.4_298: 1256483877
-      DungeonTilesetII_v1.4_128: -1669039309
       DungeonTilesetII_v1.4_295: -812651022
       DungeonTilesetII_v1.4_458: 2059767848
       DungeonTilesetII_v1.4_484: 1502617850
       DungeonTilesetII_v1.4_320: -687200876
       DungeonTilesetII_v1.4_290: 887984390
       DungeonTilesetII_v1.4_106: 410140559
-      DungeonTilesetII_v1.4_131: -1337706416
       DungeonTilesetII_v1.4_199: -971734581
       DungeonTilesetII_v1.4_397: 1852144876
       DungeonTilesetII_v1.4_245: 776895073
@@ -10751,6 +10708,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_77: 313811522
       DungeonTilesetII_v1.4_79: 206158973
       DungeonTilesetII_v1.4_431: 542071224
+      Skeleton_4: -1337706416
       DungeonTilesetII_v1.4_439: 563592238
       DungeonTilesetII_v1.4_109: -215745635
       DungeonTilesetII_v1.4_429: 1422836517
@@ -10776,7 +10734,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_221: -757531496
       DungeonTilesetII_v1.4_55: -1717942919
       DungeonTilesetII_v1.4_359: 2039959764
-      DungeonTilesetII_v1.4_19: 358653709
       DungeonTilesetII_v1.4_192: -781810791
       DungeonTilesetII_v1.4_390: -455451433
       DungeonTilesetII_v1.4_405: 839783679
@@ -10803,11 +10760,12 @@ TextureImporter:
       DungeonTilesetII_v1.4_69: 1015218244
       DungeonTilesetII_v1.4_188: -935277332
       DungeonTilesetII_v1.4_469: -2038414658
-      DungeonTilesetII_v1.4_6: 1116675336
       DungeonTilesetII_v1.4_499: 722411594
+      Skeleton_6: -12464182
       DungeonTilesetII_v1.4_284: -322613913
       DungeonTilesetII_v1.4_334: 1307952432
       DungeonTilesetII_v1.4_453: 1943266697
+      player_6: 1116675336
       DungeonTilesetII_v1.4_3: -1659854933
       DungeonTilesetII_v1.4_373: 1740773723
       DungeonTilesetII_v1.4_142: 451792265
@@ -10832,7 +10790,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_150: -1701190353
       DungeonTilesetII_v1.4_179: 12107523
       DungeonTilesetII_v1.4_246: 375950327
-      DungeonTilesetII_v1.4_18: -985795829
       DungeonTilesetII_v1.4_329: -1337102266
       DungeonTilesetII_v1.4_426: -1103227078
       DungeonTilesetII_v1.4_201: -435858253
@@ -10846,6 +10803,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_243: -689742093
       DungeonTilesetII_v1.4_205: 106597639
       DungeonTilesetII_v1.4_264: 1458821326
+      Skeleton_7: -150818092
       DungeonTilesetII_v1.4_293: -900248380
       DungeonTilesetII_v1.4_414: -303021764
       DungeonTilesetII_v1.4_482: -1871714623

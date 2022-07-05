@@ -5,6 +5,9 @@ public class Player : Mover
     private SpriteRenderer spriteRenderer;
     private bool isAlive = true;
 
+    private float vertical;
+    private float horizontal;
+
     protected override void Start()
     {
         base.Start();
@@ -28,11 +31,24 @@ public class Player : Mover
 
     private void FixedUpdate()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+        isRunning = HandleInput();
 
-        if (isAlive)
-            UpdateMotor(new Vector3(x, y, 0));
+        if (isAlive && isRunning)
+        {
+            UpdateMotor(new Vector3(horizontal, vertical, 0));
+        }
+        else
+        {
+            anim.SetTrigger("Stand");
+        }
+    }
+
+    private bool HandleInput()
+    {
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
+
+        return horizontal != 0 || vertical != 0;
     }
 
     public void SwapSprite(int skinID)

@@ -36,9 +36,7 @@ public class Enemy : Mover
 
             if (isChasing)
             {
-
                 UpdateMotor((playerTransform.position - transform.position).normalized);
-
             }
             else
             {
@@ -57,6 +55,11 @@ public class Enemy : Mover
         if (Vector3.Distance(startingPosition, transform.position) > 0.1)
         {
             UpdateMotor((startingPosition - transform.position).normalized);
+        }
+        else
+        {
+            isRunning = false;
+            anim.SetTrigger("Stand");
         }
     }
 

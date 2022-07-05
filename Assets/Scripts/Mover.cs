@@ -4,9 +4,13 @@ public class Mover : Fighter
 {
     private Vector3 originalSize;
 
-    protected BoxCollider2D _boxCollider;
-    protected RaycastHit2D _raycastHit;
-    protected Vector3 _moveDelta;
+    //Animation
+    protected Animator anim;
+    protected bool isRunning;
+
+    protected BoxCollider2D boxCollider;
+    protected RaycastHit2D raycastHit;
+    protected Vector3 moveDelta;
 
     public float ySpeed = 1.5f;
     public float xSpeed = 2f;
@@ -14,40 +18,43 @@ public class Mover : Fighter
 
     protected virtual void Start()
     {
-        _boxCollider = GetComponent<BoxCollider2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
         originalSize = transform.localScale;
+        anim = GetComponent<Animator>();
     }
 
     protected virtual void UpdateMotor(Vector3 input)
     {
+        anim.SetTrigger("Run");
+
         //Reset MoveDelta
-        _moveDelta = new Vector3(input.x * xSpeed, input.y * ySpeed, 0);
+        moveDelta = new Vector3(input.x * xSpeed, input.y * ySpeed, 0);
 
         //Swap sprite direction
-        if (_moveDelta.x > 0)
+        if (moveDelta.x > 0)
             transform.localScale = originalSize;
-        else if (_moveDelta.x < 0)
+        else if (moveDelta.x < 0)
             transform.localScale = new Vector3(originalSize.x * -1, originalSize.y, originalSize.z);
 
         //Add push vector, if any
-        _moveDelta += pushDirection;
+        moveDelta += pushDirection;
 
         //Reduce push force every frame, based off recovery speed
         pushDirection = Vector3.Lerp(pushDirection, Vector3.zero, pushRecoverySpeed);
 
         //Make sure we can move in this direction
-        _raycastHit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(0, _moveDelta.y), Mathf.Abs(_moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
-        if (_raycastHit.collider == null)
+        raycastHit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        if (raycastHit.collider == null)
         {
             //Move
-            transform.Translate(0, _moveDelta.y * Time.deltaTime, 0);
+            transform.Translate(0, moveDelta.y * Time.deltaTime, 0);
         }
 
-        _raycastHit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(_moveDelta.x, 0), Mathf.Abs(_moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
-        if (_raycastHit.collider == null)
+        raycastHit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        if (raycastHit.collider == null)
         {
             //Move
-            transform.Translate(_moveDelta.x * Time.deltaTime, 0, 0);
+            transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
         }
     }
 }

@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 8310212596772619738}
   - component: {fileID: 8310212596772619739}
   - component: {fileID: 8310212596772619740}
+  - component: {fileID: 8592887722231114634}
   m_Layer: 7
   m_Name: SmallEnemy
   m_TagString: Fighter
@@ -161,7 +162,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 460932539
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1206444941, guid: 4f7c6dd146b368b4b96d1591fae068d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,9 +216,11 @@ MonoBehaviour:
   hitpoint: 3
   maxHitpoint: 3
   pushRecoverySpeed: 0.2
-  xpValue: 1
-  triggerLength: 4
-  chaseLength: 7
+  ySpeed: 1.5
+  xSpeed: 2
+  xpValue: 10
+  triggerLength: 3
+  chaseLength: 6.7
   contactFilter:
     useTriggers: 0
     useLayerMask: 0
@@ -232,3 +235,23 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!95 &8592887722231114634
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8310212596772619736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d14a4319f7d77c244bf5014893880bcb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
