@@ -3698,69 +3698,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_246
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9414ef51416fc8488f71f2ed4857c67
-      internalID: 375950327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_247
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a811fd93df549274abdf6ef093bcf7c3
-      internalID: -702951284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_248
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 384c2ea2bde20434ab8742ee52e88004
-      internalID: -897442853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DungeonTilesetII_v1.4_249
       rect:
         serializedVersion: 2
@@ -3887,13 +3824,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_266
+      name: orc_mask_0
       rect:
         serializedVersion: 2
         x: 368
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3908,13 +3845,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_267
+      name: orc_mask_1
       rect:
         serializedVersion: 2
         x: 384
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3929,13 +3866,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_268
+      name: orc_mask_2
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3950,13 +3887,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_269
+      name: orc_mask_3
       rect:
         serializedVersion: 2
         x: 416
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3971,13 +3908,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_270
+      name: orc_mask_4
       rect:
         serializedVersion: 2
         x: 432
-        y: 320
+        y: 321
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3992,13 +3929,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_271
+      name: orc_mask_5
       rect:
         serializedVersion: 2
         x: 448
-        y: 320
+        y: 322
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4013,13 +3950,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_272
+      name: orc_mask_6
       rect:
         serializedVersion: 2
         x: 464
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4034,13 +3971,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_273
+      name: orc_mask_7
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4349,69 +4286,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_291
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 304
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4986180d2c37774f9d39bd109620e53
-      internalID: 1992970128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_292
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 304
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78705deb001a3d640a7d52c65cad2733
-      internalID: 831737846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_293
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 304
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44093d0344119b74c8d7e4d8805a2fc3
-      internalID: -900248380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DungeonTilesetII_v1.4_294
       rect:
         serializedVersion: 2
@@ -4643,13 +4517,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_305
+      name: orc_default_0
       rect:
         serializedVersion: 2
         x: 368
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4664,13 +4538,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_306
+      name: orc_default_1
       rect:
         serializedVersion: 2
         x: 384
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4685,13 +4559,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_307
+      name: orc_default_2
       rect:
         serializedVersion: 2
         x: 400
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4706,13 +4580,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_308
+      name: orc_default_3
       rect:
         serializedVersion: 2
         x: 416
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4727,13 +4601,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_309
+      name: orc_default_4
       rect:
         serializedVersion: 2
         x: 432
-        y: 288
+        y: 289
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4748,13 +4622,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_310
+      name: orc_default_5
       rect:
         serializedVersion: 2
         x: 448
-        y: 288
+        y: 290
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4769,13 +4643,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_311
+      name: orc_default_6
       rect:
         serializedVersion: 2
         x: 464
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4790,13 +4664,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_312
+      name: orc_default_7
       rect:
         serializedVersion: 2
         x: 480
         y: 288
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5016,27 +4890,6 @@ TextureImporter:
       bones: []
       spriteID: c21dcf965ee9be9419f083e4fdf3834e
       internalID: -1976875813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_331
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 272
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5083e712b4e6caf47a53f418e505c45c
-      internalID: 823623103
       vertices: []
       indices: 
       edges: []
@@ -5273,7 +5126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_351
+      name: orc_shaman_0
       rect:
         serializedVersion: 2
         x: 368
@@ -5289,153 +5142,6 @@ TextureImporter:
       bones: []
       spriteID: ac0068a28bd74c64b8e41f75fdf50fdb
       internalID: -554212678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_352
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b797056a9c3cb544aa4dcc17a9a0566
-      internalID: 1994894760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_353
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60e23979c41bf6e4fa0706e4a2b6926e
-      internalID: 588285595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_354
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 024f2dcbd09b96149987d64506f16563
-      internalID: -370889232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_355
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57c0116fc14cbd24a8cb045e10d22161
-      internalID: -1132841946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_356
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 960434c333f821d43812a62195b68ea4
-      internalID: 1995852432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_357
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df7e07a4c5380a24cabd1cad55c69b9e
-      internalID: 556595548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_358
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99935c93654effb4ca7658cad77d8ffb
-      internalID: 1656522978
       vertices: []
       indices: 
       edges: []
@@ -5562,27 +5268,6 @@ TextureImporter:
       bones: []
       spriteID: f020fee79f804bd4bb154334f0798411
       internalID: 1587309754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_365
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f95cc6b983d78fc40ab45863cd6c0b90
-      internalID: -299279585
       vertices: []
       indices: 
       edges: []
@@ -9598,6 +9283,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DungeonTilesetII_v1.4_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 256
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0b59746f138654ebf684510c442a21
+      internalID: -1824095143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777cb8be0832cf6438f521df862f41cf
+      internalID: 1278487924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f952b1841db84abc3e3b4d5b44cc1
+      internalID: 569141672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805e891cabce9734eaa557e11bfea9dc
+      internalID: -327695995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964b5bdf8e72aae409ee82a0ddf1a20a
+      internalID: -1999048408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ebbf53d9809f4bb9f551c2ab7f307
+      internalID: -190425113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_6
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0f880a3aed8874b90c24ca1b39dd0d
+      internalID: 53431799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_shaman_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329205f26f6727f4295a5ae43df3e26c
+      internalID: 1342281584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -9639,6 +9492,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_124: 1171035547
       DungeonTilesetII_v1.4_428: 107767380
       Skeleton_3: -1463063392
+      orc_mask_6: -1189236961
       DungeonTilesetII_v1.4_470: 41483912
       player_knight_6: -1785449557
       DungeonTilesetII_v1.4_324: -794316522
@@ -9660,19 +9514,21 @@ TextureImporter:
       DungeonTilesetII_v1.4_342: -188196759
       DungeonTilesetII_v1.4_407: 1953548265
       DungeonTilesetII_v1.4_420: -1362272718
-      DungeonTilesetII_v1.4_270: 1852254201
+      orc_default_5: 684463650
+      orc_default_4: 1393664718
       DungeonTilesetII_v1.4_8: -1224758894
       DungeonTilesetII_v1.4_54: -1346463396
       DungeonTilesetII_v1.4_48: 1409956499
       DungeonTilesetII_v1.4_341: 1209755517
+      orc_shaman_3: -327695995
       DungeonTilesetII_v1.4_116: -657086996
       DungeonTilesetII_v1.4_181: 485563550
       DungeonTilesetII_v1.4_210: -1185621517
-      DungeonTilesetII_v1.4_312: -1949864069
+      DungeonTilesetII_v1.4_229: -1522510879
       DungeonTilesetII_v1.4_28: -312317150
       DungeonTilesetII_v1.4_388: -1881516327
       DungeonTilesetII_v1.4_524: -622239084
-      DungeonTilesetII_v1.4_229: -1522510879
+      orc_mask_4: 1852254201
       DungeonTilesetII_v1.4_141: 801635802
       DungeonTilesetII_v1.4_463: 321623447
       DungeonTilesetII_v1.4_38: -1799185181
@@ -9695,6 +9551,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_82: 425556802
       DungeonTilesetII_v1.4_394: 1932383631
       player_0: 358653709
+      orc_mask_3: 2042060042
       DungeonTilesetII_v1.4_189: 1151341674
       DungeonTilesetII_v1.4_375: 1850925024
       DungeonTilesetII_v1.4_143: -443174321
@@ -9708,7 +9565,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_53: 952325217
       DungeonTilesetII_v1.4_352: 1994894760
       DungeonTilesetII_v1.4_14: -1513691124
-      DungeonTilesetII_v1.4_268: -1306429040
       DungeonTilesetII_v1.4_476: -479495907
       DungeonTilesetII_v1.4_483: 711296140
       DungeonTilesetII_v1.4_348: 1915676569
@@ -9727,6 +9583,7 @@ TextureImporter:
       Weapon_1: -317162456
       DungeonTilesetII_v1.4_304: -1593383191
       DungeonTilesetII_v1.4_37: -1400526666
+      orc_default_2: 1105990504
       DungeonTilesetII_v1.4_328: -1005576237
       DungeonTilesetII_v1.4_104: -1112787515
       DungeonTilesetII_v1.4_139: 1810332738
@@ -9736,6 +9593,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_102: -1514979382
       DungeonTilesetII_v1.4_415: 1479503201
       DungeonTilesetII_v1.4_344: -849401910
+      orc_default_6: 1648607992
       DungeonTilesetII_v1.4_216: 1523975218
       DungeonTilesetII_v1.4_105: -1885087445
       DungeonTilesetII_v1.4_13: -408022192
@@ -9743,28 +9601,27 @@ TextureImporter:
       DungeonTilesetII_v1.4_510: -773995439
       DungeonTilesetII_v1.4_384: -564164534
       DungeonTilesetII_v1.4_146: -757379337
+      orc_shaman_4: -1999048408
       NPC_wizard_2: -1927416814
       DungeonTilesetII_v1.4_399: -1801903628
       DungeonTilesetII_v1.4_408: -1095659566
       DungeonTilesetII_v1.4_145: 1324991729
       DungeonTilesetII_v1.4_376: -2078985184
       NPC_wizard_5: -14803589
-      DungeonTilesetII_v1.4_272: -1189236961
-      DungeonTilesetII_v1.4_479: 574513204
+      DungeonTilesetII_v1.4_215: -1278483780
       DungeonTilesetII_v1.4_360: 659911478
-      DungeonTilesetII_v1.4_305: -341865479
+      DungeonTilesetII_v1.4_156: -775831442
       DungeonTilesetII_v1.4_101: 1336133224
       DungeonTilesetII_v1.4_236: -1106292339
       player_dragon_6: -1695901949
       DungeonTilesetII_v1.4_438: 1683715028
-      DungeonTilesetII_v1.4_215: -1278483780
+      DungeonTilesetII_v1.4_479: 574513204
       DungeonTilesetII_v1.4_31: -408900002
       DungeonTilesetII_v1.4_169: 441253696
       DungeonTilesetII_v1.4_256: 48430798
-      DungeonTilesetII_v1.4_156: -775831442
+      DungeonTilesetII_v1.4_286: 350885064
       DungeonTilesetII_v1.4_454: -1808343278
       player_dragon_1: 404679093
-      DungeonTilesetII_v1.4_286: 350885064
       DungeonTilesetII_v1.4_287: 1581922898
       DungeonTilesetII_v1.4_30: -52361055
       player_knight_7: -946386855
@@ -9777,11 +9634,10 @@ TextureImporter:
       DungeonTilesetII_v1.4_65: -614487654
       DungeonTilesetII_v1.4_361: -1047952181
       DungeonTilesetII_v1.4_255: 2029791996
-      DungeonTilesetII_v1.4_351: -554212678
       DungeonTilesetII_v1.4_358: 1656522978
+      DungeonTilesetII_v1.4_140: 1532386385
       DungeonTilesetII_v1.4_61: -1117381081
       DungeonTilesetII_v1.4_450: 1218574293
-      DungeonTilesetII_v1.4_140: 1532386385
       DungeonTilesetII_v1.4_277: -1943916751
       DungeonTilesetII_v1.4_107: 827070937
       DungeonTilesetII_v1.4_4: 1792204005
@@ -9804,6 +9660,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_357: 556595548
       DungeonTilesetII_v1.4_346: -799354784
       Weapon_3: -791979588
+      orc_default_0: -341865479
       DungeonTilesetII_v1.4_191: 2071450329
       DungeonTilesetII_v1.4_418: -1885177504
       DungeonTilesetII_v1.4_332: 53780682
@@ -9833,7 +9690,9 @@ TextureImporter:
       DungeonTilesetII_v1.4_480: -506813641
       DungeonTilesetII_v1.4_502: 1489327661
       DungeonTilesetII_v1.4_71: -1257725928
+      orc_shaman_1: 1278487924
       DungeonTilesetII_v1.4_410: -1236491787
+      orc_default_3: -1267299037
       DungeonTilesetII_v1.4_175: -1276423424
       DungeonTilesetII_v1.4_92: -166348477
       DungeonTilesetII_v1.4_182: -1384189
@@ -9847,9 +9706,10 @@ TextureImporter:
       player_1: -985795829
       DungeonTilesetII_v1.4_281: 934558161
       DungeonTilesetII_v1.4_448: -574254386
+      orc_mask_2: -1306429040
       DungeonTilesetII_v1.4_467: 1161675034
+      orc_mask_0: -1184496790
       DungeonTilesetII_v1.4_168: 1168099421
-      DungeonTilesetII_v1.4_311: 1648607992
       DungeonTilesetII_v1.4_10: 2074777872
       Weapon_2: -2050122217
       DungeonTilesetII_v1.4_123: -913124595
@@ -9860,13 +9720,13 @@ TextureImporter:
       DungeonTilesetII_v1.4_423: -859944715
       DungeonTilesetII_v1.4_95: -1349028651
       player_dragon_0: -1293432111
+      DungeonTilesetII_v1.4_7: -1824095143
       DungeonTilesetII_v1.4_252: -1795120004
       DungeonTilesetII_v1.4_331: 823623103
       DungeonTilesetII_v1.4_354: -370889232
       DungeonTilesetII_v1.4_356: 1995852432
       DungeonTilesetII_v1.4_504: 10728668
       DungeonTilesetII_v1.4_416: 1384000716
-      DungeonTilesetII_v1.4_307: 1105990504
       DungeonTilesetII_v1.4_395: 1628974471
       DungeonTilesetII_v1.4_157: 847846569
       DungeonTilesetII_v1.4_44: -1653674275
@@ -9882,36 +9742,35 @@ TextureImporter:
       Skeleton_0: 1206444941
       DungeonTilesetII_v1.4_427: 1371611462
       DungeonTilesetII_v1.4_440: 1860285971
-      DungeonTilesetII_v1.4_309: 1393664718
-      DungeonTilesetII_v1.4_269: 2042060042
-      DungeonTilesetII_v1.4_273: -1338138760
+      orc_mask_7: -1338138760
       Skeleton_2: -1520407230
       DungeonTilesetII_v1.4_35: -1444022329
       DungeonTilesetII_v1.4_461: -29622698
       DungeonTilesetII_v1.4_260: -2064433062
       DungeonTilesetII_v1.4_174: 756165201
-      DungeonTilesetII_v1.4_267: 1147436568
       DungeonTilesetII_v1.4_166: -976382596
       DungeonTilesetII_v1.4_119: -1049221807
       DungeonTilesetII_v1.4_154: -2099776691
-      DungeonTilesetII_v1.4_230: -1267464462
-      DungeonTilesetII_v1.4_292: 831737846
-      DungeonTilesetII_v1.4_112: 1672081479
       DungeonTilesetII_v1.4_165: 1345348342
+      DungeonTilesetII_v1.4_292: 831737846
+      DungeonTilesetII_v1.4_230: -1267464462
+      DungeonTilesetII_v1.4_112: 1672081479
       DungeonTilesetII_v1.4_198: 1276439692
-      DungeonTilesetII_v1.4_364: 1587309754
       DungeonTilesetII_v1.4_362: -350611872
+      orc_default_7: -1949864069
       DungeonTilesetII_v1.4_525: -1566812064
+      DungeonTilesetII_v1.4_364: 1587309754
       DungeonTilesetII_v1.4_294: -345170773
-      DungeonTilesetII_v1.4_345: 272790602
       player_2: -508726108
       DungeonTilesetII_v1.4_72: -991395252
-      DungeonTilesetII_v1.4_413: -685466369
+      DungeonTilesetII_v1.4_345: 272790602
       DungeonTilesetII_v1.4_333: 23565485
       DungeonTilesetII_v1.4_147: 1501668327
       DungeonTilesetII_v1.4_0: 147541141
       DungeonTilesetII_v1.4_214: 1232574608
       player_knight_4: -439825164
+      orc_default_1: 1811716281
+      DungeonTilesetII_v1.4_413: -685466369
       DungeonTilesetII_v1.4_263: 268485021
       DungeonTilesetII_v1.4_367: 1041822436
       DungeonTilesetII_v1.4_382: -2009335028
@@ -9922,6 +9781,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_1: 239126495
       DungeonTilesetII_v1.4_519: 804171761
       DungeonTilesetII_v1.4_452: 1539842534
+      orc_mask_5: -911842371
       DungeonTilesetII_v1.4_227: -1970312134
       DungeonTilesetII_v1.4_164: -1619514552
       DungeonTilesetII_v1.4_296: 751516386
@@ -9960,19 +9820,18 @@ TextureImporter:
       DungeonTilesetII_v1.4_505: -912996800
       DungeonTilesetII_v1.4_135: -1107667749
       DungeonTilesetII_v1.4_176: -758930053
-      DungeonTilesetII_v1.4_271: -911842371
       DungeonTilesetII_v1.4_368: 157359327
+      DungeonTilesetII_v1.4_404: -956241258
       DungeonTilesetII_v1.4_144: 1484196730
       DungeonTilesetII_v1.4_193: -1123973264
       DungeonTilesetII_v1.4_299: 2013852396
-      DungeonTilesetII_v1.4_404: -956241258
+      DungeonTilesetII_v1.4_494: 773361540
       DungeonTilesetII_v1.4_377: 2016177158
       DungeonTilesetII_v1.4_522: -1879347919
-      DungeonTilesetII_v1.4_494: 773361540
-      DungeonTilesetII_v1.4_5: 967976838
       Skeleton_5: -1449182236
-      DungeonTilesetII_v1.4_266: -1184496790
+      DungeonTilesetII_v1.4_5: 967976838
       DungeonTilesetII_v1.4_301: -631923301
+      orc_shaman_5: -190425113
       DungeonTilesetII_v1.4_208: 2107876796
       DungeonTilesetII_v1.4_449: -1916124917
       DungeonTilesetII_v1.4_50: 1201222916
@@ -9990,8 +9849,8 @@ TextureImporter:
       DungeonTilesetII_v1.4_56: 1561058608
       DungeonTilesetII_v1.4_43: -1342138066
       DungeonTilesetII_v1.4_508: 709153475
+      orc_shaman_0: -554212678
       DungeonTilesetII_v1.4_406: 352559600
-      DungeonTilesetII_v1.4_308: -1267299037
       DungeonTilesetII_v1.4_24: 1803297466
       DungeonTilesetII_v1.4_323: -621933470
       player_5: 1757981325
@@ -10005,7 +9864,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_258: -2003165732
       DungeonTilesetII_v1.4_257: 863726453
       DungeonTilesetII_v1.4_327: 1469484002
-      DungeonTilesetII_v1.4_306: 1811716281
       DungeonTilesetII_v1.4_151: -30422534
       DungeonTilesetII_v1.4_89: 1784693656
       DungeonTilesetII_v1.4_298: 1256483877
@@ -10013,6 +9871,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_458: 2059767848
       DungeonTilesetII_v1.4_484: 1502617850
       DungeonTilesetII_v1.4_320: -687200876
+      orc_shaman_6: 53431799
       DungeonTilesetII_v1.4_290: 887984390
       DungeonTilesetII_v1.4_106: 410140559
       DungeonTilesetII_v1.4_199: -971734581
@@ -10033,6 +9892,7 @@ TextureImporter:
       player_knight_5: -1805873795
       DungeonTilesetII_v1.4_249: -403499335
       DungeonTilesetII_v1.4_183: 654812513
+      orc_shaman_2: 569141672
       DungeonTilesetII_v1.4_26: -1818853700
       DungeonTilesetII_v1.4_184: -84538029
       DungeonTilesetII_v1.4_110: 2026191650
@@ -10149,11 +10009,12 @@ TextureImporter:
       DungeonTilesetII_v1.4_201: -435858253
       DungeonTilesetII_v1.4_118: 1067179322
       DungeonTilesetII_v1.4_435: -183540232
-      DungeonTilesetII_v1.4_310: 684463650
+      orc_shaman_7: 1342281584
+      DungeonTilesetII_v1.4_424: 2131810957
       DungeonTilesetII_v1.4_39: 1303876114
       player_knight_0: -419148520
-      DungeonTilesetII_v1.4_424: 2131810957
       DungeonTilesetII_v1.4_218: 1839788028
+      orc_mask_1: 1147436568
       DungeonTilesetII_v1.4_233: 1767603273
       DungeonTilesetII_v1.4_243: -689742093
       DungeonTilesetII_v1.4_205: 106597639
