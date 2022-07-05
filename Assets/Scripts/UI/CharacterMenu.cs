@@ -56,11 +56,11 @@ public class CharacterMenu : MonoBehaviour
     public void UpdateMenu()
     {
         //Weapon
-        weaponSprite.sprite = GameManager.instance.weaponSprites[GameManager.instance.weapon.WeaponLevel];
-        if (GameManager.instance.weapon.WeaponLevel == GameManager.instance.weaponPrices.Count)
+        weaponSprite.sprite = GameManager.instance.weapon.weaponSprites[GameManager.instance.weapon.WeaponLevel];
+        if (GameManager.instance.weapon.WeaponLevel == GameManager.instance.weapon.weaponPrices.Count)
             upgradeCostText.text = "MAX";
         else
-            upgradeCostText.text = GameManager.instance.weaponPrices[GameManager.instance.weapon.WeaponLevel].ToString();
+            upgradeCostText.text = GameManager.instance.weapon.weaponPrices[GameManager.instance.weapon.WeaponLevel].ToString();
 
         //Meta
         hitpointText.text = $"{GameManager.instance.player.hitpoint.ToString()} / {GameManager.instance.player.maxHitpoint}";

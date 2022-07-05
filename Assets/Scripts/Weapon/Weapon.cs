@@ -1,10 +1,15 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : Collidable
 {
+    public List<Sprite> weaponSprites;
+    public List<int> weaponPrices;
+
     //Damage struct
-    [SerializeField] private int[] _damagePoint = { 1, 2, 3, 4, 5, 6, 7 };
-    [SerializeField] private float _pushForce = 7;
+    [SerializeField] protected int[] damagePoint = { 1, 2, 3, 4, 5, 6, 7 };
+    [SerializeField] protected float pushForce = 7;
+    [SerializeField] private float _cooldown = 0.3f;
 
     //Upgrade
     public int WeaponLevel { get { return _weaponLevel; } private set { _weaponLevel = value; } }
@@ -12,9 +17,8 @@ public class Weapon : Collidable
     private int _weaponLevel = 0;
     private SpriteRenderer _spriteRenderer;
 
-    //Swing 
+    //Attack 
     private Animator _anim;
-    private float _cooldown = 0.3f;
     private float _lastSwing;
 
     private void Awake()
@@ -37,7 +41,7 @@ public class Weapon : Collidable
             if (Time.time - _lastSwing > _cooldown)
             {
                 _lastSwing = Time.time;
-                Swing();
+                Attack();
             }
         }
     }
@@ -52,29 +56,29 @@ public class Weapon : Collidable
             //Create a new damage object, then we'll send it to the fighter we'll hit
             Damage dmg = new Damage()
             {
-                damageAmount = _damagePoint[WeaponLevel],
+                damageAmount = damagePoint[WeaponLevel],
                 origin = transform.position,
-                pushForce = _pushForce,
+                pushForce = pushForce,
             };
 
             collider.SendMessage("ReceiveDamage", dmg);
         }
     }
 
-    private void Swing()
+    private void Attack()
     {
-        _anim.SetTrigger("Swing");
+        _anim.SetTrigger("Attack");
     }
 
     public void UpgradeWeapon()
     {
         WeaponLevel++;
-        _spriteRenderer.sprite = GameManager.instance.weaponSprites[WeaponLevel];
+        _spriteRenderer.sprite = GameManager.instance.weapon.weaponSprites[WeaponLevel];
     }
 
     public void SetWeaponLevel(int level)
     {
         WeaponLevel = level;
-        _spriteRenderer.sprite = GameManager.instance.weaponSprites[WeaponLevel];
+        _spriteRenderer.sprite = GameManager.instance.weapon.weaponSprites[WeaponLevel];
     }
 }

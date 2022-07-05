@@ -28,8 +28,8 @@ public class GameManager : MonoBehaviour
     //Resourse
     public List<Sprite> playerSprites;
     public List<AnimatorController> playerAnimationControllers;
-    public List<Sprite> weaponSprites;
-    public List<int> weaponPrices;
+    //public List<Sprite> weaponSprites;
+    //public List<int> weaponPrices;
     public List<int> xpTable;
 
     //References
@@ -58,12 +58,12 @@ public class GameManager : MonoBehaviour
     public bool TryUpgradeWeapon()
     {
         //Is the weapon max level?
-        if (weaponPrices.Count <= weapon.WeaponLevel)
+        if (weapon.weaponPrices.Count <= weapon.WeaponLevel)
             return false;
 
-        if (pesos >= weaponPrices[weapon.WeaponLevel])
+        if (pesos >= weapon.weaponPrices[weapon.WeaponLevel])
         {
-            pesos -= weaponPrices[weapon.WeaponLevel];
+            pesos -= weapon.weaponPrices[weapon.WeaponLevel];
             weapon.UpgradeWeapon();
             return true;
         }

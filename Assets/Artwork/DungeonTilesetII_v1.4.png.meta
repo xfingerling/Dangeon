@@ -569,13 +569,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon_0
+      name: sword_steel_0
       rect:
         serializedVersion: 2
         x: 307
         y: 465
         width: 10
-        height: 30
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9451,6 +9451,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sword_steel_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 465
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ef290873c26249b2f67c5286a4a8a
+      internalID: -1945491907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_steel_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 465
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c204e2e99d3052c4dacfdb34c48d6b14
+      internalID: 1354296144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: two_handed_sword_0
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 401
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9b812d573d034185aef3b1d492267
+      internalID: 1819772180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: two_handed_sword_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 401
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2093081bfb9207429853d71b228f417
+      internalID: -199986466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -9483,7 +9567,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_471: 1732871697
       DungeonTilesetII_v1.4_212: 1616167122
       DungeonTilesetII_v1.4_523: -1876057052
-      Weapon_0: 1819859321
       DungeonTilesetII_v1.4_167: -374350002
       DungeonTilesetII_v1.4_432: 277277541
       DungeonTilesetII_v1.4_433: -1848627450
@@ -9506,6 +9589,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_515: -920573597
       DungeonTilesetII_v1.4_33: 1342875964
       DungeonTilesetII_v1.4_315: -1315999862
+      sword_steel_0: 1819859321
       DungeonTilesetII_v1.4_152: 686181313
       DungeonTilesetII_v1.4_148: -1935049019
       DungeonTilesetII_v1.4_161: 951111081
@@ -9554,6 +9638,7 @@ TextureImporter:
       orc_mask_3: 2042060042
       DungeonTilesetII_v1.4_189: 1151341674
       DungeonTilesetII_v1.4_375: 1850925024
+      sword_steel_2: 1354296144
       DungeonTilesetII_v1.4_143: -443174321
       DungeonTilesetII_v1.4_518: 102127129
       DungeonTilesetII_v1.4_276: 133180306
@@ -9561,6 +9646,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_2: 2147181377
       DungeonTilesetII_v1.4_319: 2092778746
       DungeonTilesetII_v1.4_340: 1800891267
+      two_handed_sword_0: 1819772180
       DungeonTilesetII_v1.4_441: 509724985
       DungeonTilesetII_v1.4_53: 952325217
       DungeonTilesetII_v1.4_352: 1994894760
@@ -9756,31 +9842,31 @@ TextureImporter:
       DungeonTilesetII_v1.4_230: -1267464462
       DungeonTilesetII_v1.4_112: 1672081479
       DungeonTilesetII_v1.4_198: 1276439692
-      DungeonTilesetII_v1.4_362: -350611872
+      DungeonTilesetII_v1.4_364: 1587309754
       orc_default_7: -1949864069
       DungeonTilesetII_v1.4_525: -1566812064
-      DungeonTilesetII_v1.4_364: 1587309754
       DungeonTilesetII_v1.4_294: -345170773
+      DungeonTilesetII_v1.4_362: -350611872
       player_2: -508726108
       DungeonTilesetII_v1.4_72: -991395252
-      DungeonTilesetII_v1.4_345: 272790602
+      orc_default_1: 1811716281
       DungeonTilesetII_v1.4_333: 23565485
       DungeonTilesetII_v1.4_147: 1501668327
       DungeonTilesetII_v1.4_0: 147541141
       DungeonTilesetII_v1.4_214: 1232574608
       player_knight_4: -439825164
-      orc_default_1: 1811716281
-      DungeonTilesetII_v1.4_413: -685466369
+      DungeonTilesetII_v1.4_345: 272790602
       DungeonTilesetII_v1.4_263: 268485021
       DungeonTilesetII_v1.4_367: 1041822436
       DungeonTilesetII_v1.4_382: -2009335028
+      DungeonTilesetII_v1.4_413: -685466369
       DungeonTilesetII_v1.4_94: 1935661716
       DungeonTilesetII_v1.4_232: -2106113207
       DungeonTilesetII_v1.4_66: -40319045
       DungeonTilesetII_v1.4_444: -1663543629
+      DungeonTilesetII_v1.4_452: 1539842534
       DungeonTilesetII_v1.4_1: 239126495
       DungeonTilesetII_v1.4_519: 804171761
-      DungeonTilesetII_v1.4_452: 1539842534
       orc_mask_5: -911842371
       DungeonTilesetII_v1.4_227: -1970312134
       DungeonTilesetII_v1.4_164: -1619514552
@@ -9796,14 +9882,14 @@ TextureImporter:
       DungeonTilesetII_v1.4_45: -2088595667
       DungeonTilesetII_v1.4_217: -1499113399
       DungeonTilesetII_v1.4_25: 989132669
-      DungeonTilesetII_v1.4_516: 1964750044
       DungeonTilesetII_v1.4_472: 363224385
       DungeonTilesetII_v1.4_316: 699740049
-      DungeonTilesetII_v1.4_283: 21971581
       DungeonTilesetII_v1.4_349: 1518458070
-      DungeonTilesetII_v1.4_285: -1277054429
       DungeonTilesetII_v1.4_489: 931546247
+      DungeonTilesetII_v1.4_283: 21971581
+      DungeonTilesetII_v1.4_285: -1277054429
       DungeonTilesetII_v1.4_288: 1297751965
+      DungeonTilesetII_v1.4_516: 1964750044
       player_7: -285685895
       DungeonTilesetII_v1.4_74: -283550475
       DungeonTilesetII_v1.4_88: 569639275
@@ -9840,10 +9926,12 @@ TextureImporter:
       healingFountain_0: 1874766962
       DungeonTilesetII_v1.4_398: -1757101737
       DungeonTilesetII_v1.4_460: -1033184521
+      two_handed_sword_1: -199986466
       DungeonTilesetII_v1.4_459: 1687833411
       DungeonTilesetII_v1.4_330: -1976875813
       DungeonTilesetII_v1.4_337: -192657246
       DungeonTilesetII_v1.4_509: -755720176
+      sword_steel_1: -1945491907
       DungeonTilesetII_v1.4_195: -724087920
       DungeonTilesetII_v1.4_138: 1791866995
       DungeonTilesetII_v1.4_56: 1561058608
