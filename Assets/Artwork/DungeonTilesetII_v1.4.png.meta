@@ -359,13 +359,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_11
+      name: healingFountain_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 480
+        x: 80
+        y: 464
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,13 +380,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_12
+      name: healingFountain_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 480
+        x: 64
+        y: 464
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: DungeonTilesetII_v1.4_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 480
+        x: 64
+        y: 432
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,69 +816,6 @@ TextureImporter:
       bones: []
       spriteID: ab35933cc6dbe1a4394e824872cad313
       internalID: -1400526666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_38
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 464
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 369a0e1d2c90b1242a2e1c0e42c240e4
-      internalID: -1799185181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_39
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 464
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785c1eb85b4aa5c44a584d16814e36c6
-      internalID: 1303876114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_40
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 464
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae792c7a746c57048a93aaf5a81798ce
-      internalID: 1324631487
       vertices: []
       indices: 
       edges: []
@@ -1304,69 +1241,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_65
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 448
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dd6020ca39382d48b4045e4bf427126
-      internalID: -614487654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_66
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 448
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 598247743a4eefe4b85d1cd96b189620
-      internalID: -40319045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_67
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 448
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf535da45ba1c141baa487a52af4423
-      internalID: -1922334141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DungeonTilesetII_v1.4_68
       rect:
         serializedVersion: 2
@@ -1782,69 +1656,6 @@ TextureImporter:
       bones: []
       spriteID: df1be9ac9ecf08e42bcc8a1db2984625
       internalID: 1858011761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_92
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 432
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10326bb3a9bd6e14780cd840f7feca4f
-      internalID: -166348477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_93
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 432
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0abec1e2fe0b17442a53e7c5b948a6bf
-      internalID: 1931262518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_94
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 432
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84952ee2283b32e4a92ac2f9cc954b1a
-      internalID: 1935661716
       vertices: []
       indices: 
       edges: []
@@ -3887,195 +3698,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_233
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a856e917c1c1f543a84273340b2407d
-      internalID: 1767603273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_234
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a5f622bae9179549b039f7762aeb7ab
-      internalID: -866887758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_235
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 726a69a8c73f79f4495a839011c312e7
-      internalID: 1902846098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_236
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88a0fdba2e6ab5741bfe2fcfa9cdcb6a
-      internalID: -1106292339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_237
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c888b382476aa1b4b8710dcfaf02cd59
-      internalID: -621716067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_238
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6775424020a3aff419919d00daa0cf71
-      internalID: 727602836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_239
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35e1d18ce7dec9b4dac8b2b78d4b0d6f
-      internalID: -1218186272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_240
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45679437d5531414e9c10699c532c0e1
-      internalID: -3899581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_241
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e161f2f69cc1dd64bbfbafe35b1b48e7
-      internalID: 554448493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DungeonTilesetII_v1.4_246
       rect:
         serializedVersion: 2
@@ -4244,13 +3866,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_254
+      name: NPC_wizard_0
       rect:
         serializedVersion: 2
         x: 128
         y: 320
         width: 16
-        height: 16
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4260,174 +3882,6 @@ TextureImporter:
       bones: []
       spriteID: a6b9d98fce7d52545b7f22adb99118d6
       internalID: 1042067388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_255
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52475856f98e928468e87fe5c12dcbe2
-      internalID: 2029791996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_256
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9fd712ee0fb490429b666991a0c8d34
-      internalID: 48430798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_257
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ae0e834749b5c14c90861b091798a3b
-      internalID: 863726453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_258
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fa773a99a2cb7843a143c54722103c4
-      internalID: -2003165732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_259
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39f73bcfd4b40c34fa073f8aa2a3a11a
-      internalID: -923037293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_260
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f5d7e0354ea844e8eebc6e07ad297e
-      internalID: -2064433062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_261
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ea21350ffdf95d4399837b16ad3912a
-      internalID: -749972745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DungeonTilesetII_v1.4_262
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa24ed85160be664a9dbf838c38e5435
-      internalID: 510599100
       vertices: []
       indices: 
       edges: []
@@ -9913,6 +9367,237 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DungeonTilesetII_v1.4_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d84e4a446602a4b8db882d0507a76c
+      internalID: 960760195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingFountain_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d3b4f01ed1fd84c8950177c1e599de
+      internalID: 1236589796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTilesetII_v1.4_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51415e79c4d009646b8d3f17f46c050b
+      internalID: -1513691124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73dec30efddf9e418545753da4fe00c
+      internalID: -586117345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4002201827392d049baccb70954bb287
+      internalID: -1927416814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddf8bd80780cb4f9ff0b72e883145f
+      internalID: -1190224113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bd9ea7eefd7eb478063a8c5c7fd607
+      internalID: -1054726502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e2b1d11f63124ebf96ba6c493f95f
+      internalID: -14803589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b22f8140ded0c4dbee910b24ad7dcd
+      internalID: 1154765247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6451588f921446248a8350568db122ee
+      internalID: -1353144977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_wizard_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 323
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa707d4b1d8ba54099a2f25c9a41541
+      internalID: 738647202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -9954,7 +9639,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_124: 1171035547
       DungeonTilesetII_v1.4_428: 107767380
       Skeleton_3: -1463063392
-      DungeonTilesetII_v1.4_11: 51944988
       DungeonTilesetII_v1.4_470: 41483912
       player_knight_6: -1785449557
       DungeonTilesetII_v1.4_324: -794316522
@@ -10000,6 +9684,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_380: 205494068
       DungeonTilesetII_v1.4_27: 78474884
       DungeonTilesetII_v1.4_63: -705179214
+      NPC_wizard_3: -1190224113
       DungeonTilesetII_v1.4_303: 1985462455
       DungeonTilesetII_v1.4_9: 868471756
       DungeonTilesetII_v1.4_425: -580792377
@@ -10022,6 +9707,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_441: 509724985
       DungeonTilesetII_v1.4_53: 952325217
       DungeonTilesetII_v1.4_352: 1994894760
+      DungeonTilesetII_v1.4_14: -1513691124
       DungeonTilesetII_v1.4_268: -1306429040
       DungeonTilesetII_v1.4_476: -479495907
       DungeonTilesetII_v1.4_483: 711296140
@@ -10057,10 +9743,12 @@ TextureImporter:
       DungeonTilesetII_v1.4_510: -773995439
       DungeonTilesetII_v1.4_384: -564164534
       DungeonTilesetII_v1.4_146: -757379337
+      NPC_wizard_2: -1927416814
       DungeonTilesetII_v1.4_399: -1801903628
       DungeonTilesetII_v1.4_408: -1095659566
       DungeonTilesetII_v1.4_145: 1324991729
       DungeonTilesetII_v1.4_376: -2078985184
+      NPC_wizard_5: -14803589
       DungeonTilesetII_v1.4_272: -1189236961
       DungeonTilesetII_v1.4_479: 574513204
       DungeonTilesetII_v1.4_360: 659911478
@@ -10090,11 +9778,11 @@ TextureImporter:
       DungeonTilesetII_v1.4_361: -1047952181
       DungeonTilesetII_v1.4_255: 2029791996
       DungeonTilesetII_v1.4_351: -554212678
-      DungeonTilesetII_v1.4_140: 1532386385
-      DungeonTilesetII_v1.4_61: -1117381081
       DungeonTilesetII_v1.4_358: 1656522978
-      DungeonTilesetII_v1.4_277: -1943916751
+      DungeonTilesetII_v1.4_61: -1117381081
       DungeonTilesetII_v1.4_450: 1218574293
+      DungeonTilesetII_v1.4_140: 1532386385
+      DungeonTilesetII_v1.4_277: -1943916751
       DungeonTilesetII_v1.4_107: 827070937
       DungeonTilesetII_v1.4_4: 1792204005
       player_8: 324687618
@@ -10112,6 +9800,7 @@ TextureImporter:
       player_dragon_8: 215009649
       DungeonTilesetII_v1.4_242: -932115367
       DungeonTilesetII_v1.4_180: -132930892
+      NPC_wizard_8: 738647202
       DungeonTilesetII_v1.4_357: 556595548
       DungeonTilesetII_v1.4_346: -799354784
       Weapon_3: -791979588
@@ -10190,7 +9879,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_280: -92383301
       DungeonTilesetII_v1.4_392: 1556895077
       DungeonTilesetII_v1.4_481: 1568309417
-      DungeonTilesetII_v1.4_254: 1042067388
       Skeleton_0: 1206444941
       DungeonTilesetII_v1.4_427: 1371611462
       DungeonTilesetII_v1.4_440: 1860285971
@@ -10249,13 +9937,13 @@ TextureImporter:
       DungeonTilesetII_v1.4_217: -1499113399
       DungeonTilesetII_v1.4_25: 989132669
       DungeonTilesetII_v1.4_516: 1964750044
-      DungeonTilesetII_v1.4_316: 699740049
-      DungeonTilesetII_v1.4_349: 1518458070
-      DungeonTilesetII_v1.4_283: 21971581
-      DungeonTilesetII_v1.4_285: -1277054429
       DungeonTilesetII_v1.4_472: 363224385
-      DungeonTilesetII_v1.4_288: 1297751965
+      DungeonTilesetII_v1.4_316: 699740049
+      DungeonTilesetII_v1.4_283: 21971581
+      DungeonTilesetII_v1.4_349: 1518458070
+      DungeonTilesetII_v1.4_285: -1277054429
       DungeonTilesetII_v1.4_489: 931546247
+      DungeonTilesetII_v1.4_288: 1297751965
       player_7: -285685895
       DungeonTilesetII_v1.4_74: -283550475
       DungeonTilesetII_v1.4_88: 569639275
@@ -10290,6 +9978,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_50: 1201222916
       DungeonTilesetII_v1.4_247: -702951284
       DungeonTilesetII_v1.4_313: 1006857260
+      healingFountain_0: 1874766962
       DungeonTilesetII_v1.4_398: -1757101737
       DungeonTilesetII_v1.4_460: -1033184521
       DungeonTilesetII_v1.4_459: 1687833411
@@ -10311,6 +10000,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_121: -1355179979
       player_4: -343451561
       DungeonTilesetII_v1.4_372: -2001658933
+      healingFountain_2: 1236589796
       DungeonTilesetII_v1.4_457: 815418768
       DungeonTilesetII_v1.4_258: -2003165732
       DungeonTilesetII_v1.4_257: 863726453
@@ -10348,6 +10038,8 @@ TextureImporter:
       DungeonTilesetII_v1.4_110: 2026191650
       DungeonTilesetII_v1.4_371: -1435045085
       DungeonTilesetII_v1.4_437: 1181816800
+      NPC_wizard_1: -586117345
+      NPC_wizard_4: -1054726502
       player_knight_3: 369953108
       DungeonTilesetII_v1.4_100: 317984422
       DungeonTilesetII_v1.4_219: -652284919
@@ -10363,6 +10055,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_431: 542071224
       Skeleton_4: -1337706416
       DungeonTilesetII_v1.4_439: 563592238
+      NPC_wizard_7: -1353144977
       DungeonTilesetII_v1.4_109: -215745635
       DungeonTilesetII_v1.4_429: 1422836517
       DungeonTilesetII_v1.4_347: 1436202090
@@ -10416,26 +10109,29 @@ TextureImporter:
       player_dragon_2: 1406428148
       DungeonTilesetII_v1.4_69: 1015218244
       DungeonTilesetII_v1.4_188: -935277332
+      NPC_wizard_6: 1154765247
       DungeonTilesetII_v1.4_469: -2038414658
+      DungeonTilesetII_v1.4_6: 960760195
       DungeonTilesetII_v1.4_499: 722411594
       Skeleton_6: -12464182
+      NPC_wizard_0: 1042067388
       DungeonTilesetII_v1.4_284: -322613913
       DungeonTilesetII_v1.4_334: 1307952432
       DungeonTilesetII_v1.4_453: 1943266697
       player_6: 1116675336
       DungeonTilesetII_v1.4_3: -1659854933
+      healingFountain_1: 51944988
       DungeonTilesetII_v1.4_373: 1740773723
       DungeonTilesetII_v1.4_142: 451792265
-      DungeonTilesetII_v1.4_12: 1874766962
       DungeonTilesetII_v1.4_51: 416324225
+      DungeonTilesetII_v1.4_194: -394564283
       DungeonTilesetII_v1.4_68: 1253787047
       DungeonTilesetII_v1.4_90: 117605804
       DungeonTilesetII_v1.4_96: 1247609358
       DungeonTilesetII_v1.4_487: -1416677145
       DungeonTilesetII_v1.4_93: 1931262518
-      DungeonTilesetII_v1.4_194: -394564283
-      DungeonTilesetII_v1.4_58: -2026773484
       DungeonTilesetII_v1.4_289: -506104524
+      DungeonTilesetII_v1.4_58: -2026773484
       DungeonTilesetII_v1.4_507: -1286423323
       DungeonTilesetII_v1.4_207: 1532867494
       DungeonTilesetII_v1.4_498: 1067046623
