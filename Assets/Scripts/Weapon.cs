@@ -4,7 +4,7 @@ public class Weapon : Collidable
 {
     //Damage struct
     [SerializeField] private int[] _damagePoint = { 1, 2, 3, 4, 5, 6, 7 };
-    [SerializeField] private float[] _pushForce = { 2, 2.2f, 2.5f, 3, 3.2f, 3.6f, 4f };
+    [SerializeField] private float _pushForce = 7;
 
     //Upgrade
     public int WeaponLevel { get { return _weaponLevel; } private set { _weaponLevel = value; } }
@@ -14,7 +14,7 @@ public class Weapon : Collidable
 
     //Swing 
     private Animator _anim;
-    private float _cooldown = 0.5f;
+    private float _cooldown = 0.3f;
     private float _lastSwing;
 
     private void Awake()
@@ -54,7 +54,7 @@ public class Weapon : Collidable
             {
                 damageAmount = _damagePoint[WeaponLevel],
                 origin = transform.position,
-                pushForce = _pushForce[WeaponLevel],
+                pushForce = _pushForce,
             };
 
             collider.SendMessage("ReceiveDamage", dmg);
