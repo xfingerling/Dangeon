@@ -155,6 +155,7 @@ public class GameManager : MonoBehaviour
     {
         //Player spawn position
         player.transform.position = GameObject.Find("SpawnPoint").transform.position;
+
         OnExperienceChange();
     }
 
