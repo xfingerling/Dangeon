@@ -31,11 +31,14 @@ public class Mover : Fighter
         //Reset MoveDelta
         moveDelta = new Vector3(input.x * xSpeed, input.y * ySpeed, 0);
 
-        //Swap sprite direction
-        if (moveDelta.x > 0)
-            transform.localScale = originalSize;
-        else if (moveDelta.x < 0)
-            transform.localScale = new Vector3(originalSize.x * -1, originalSize.y, originalSize.z);
+        //Swap sprite direction 
+        if (!GameManager.instance.weapon.IsAttack)
+        {
+            if (moveDelta.x > 0)
+                transform.localScale = originalSize;
+            else if (moveDelta.x < 0)
+                transform.localScale = new Vector3(originalSize.x * -1, originalSize.y, originalSize.z);
+        }
 
         //Add push vector, if any
         moveDelta += pushDirection;

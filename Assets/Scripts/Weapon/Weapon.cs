@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Weapon : Collidable
 {
+    public bool IsAttack;
     public List<Sprite> weaponSprites;
     public List<int> weaponPrices;
 
@@ -40,6 +41,7 @@ public class Weapon : Collidable
         {
             if (Time.time - _lastSwing > _cooldown)
             {
+                IsAttack = true;
                 _lastSwing = Time.time;
                 Attack();
             }
@@ -68,6 +70,11 @@ public class Weapon : Collidable
     private void Attack()
     {
         _anim.SetTrigger("Attack");
+    }
+
+    private void ToggleAttack()
+    {
+        IsAttack = !IsAttack;
     }
 
     public void UpgradeWeapon()
