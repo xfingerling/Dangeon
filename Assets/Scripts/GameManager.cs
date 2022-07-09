@@ -151,7 +151,7 @@ public class GameManager : MonoBehaviour
     }
 
     //On scene loaded 
-    public void OnSceneLoaded(Scene s, LoadSceneMode mode)
+    public void OnSceneLoaded(UnityEngine.SceneManagement.Scene s, LoadSceneMode mode)
     {
         //Player spawn position
         player.transform.position = GameObject.Find("SpawnPoint").transform.position;
@@ -188,7 +188,7 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("Save State");
     }
-    public void LoadState(Scene s, LoadSceneMode mode)
+    public void LoadState(UnityEngine.SceneManagement.Scene s, LoadSceneMode mode)
     {
         SceneManager.sceneLoaded -= LoadState;
 
