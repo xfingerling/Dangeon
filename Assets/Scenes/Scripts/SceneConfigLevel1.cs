@@ -13,6 +13,7 @@ public class SceneConfigLevel1 : SceneConfig
         CreateInteractor<BankInteractor>(interactorsMap);
         CreateInteractor<PlayerInteractor>(interactorsMap);
         CreateInteractor<CameraInteractor>(interactorsMap);
+        CreateInteractor<SpawnPositionInteractor>(interactorsMap);
 
         return interactorsMap;
     }

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        transform.position = Game.GetInteractor<SpawnPositionInteractor>().SpawpPosition.position;
         _boxCollider = GetComponent<BoxCollider2D>();
         _originalSize = transform.localScale;
     }

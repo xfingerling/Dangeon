@@ -18,7 +18,6 @@ public class CameraControl : MonoBehaviour
         }
     }
 
-
     private void Start()
     {
         _playerTransform = Game.GetInteractor<PlayerInteractor>().Player.transform;
@@ -26,7 +25,6 @@ public class CameraControl : MonoBehaviour
     }
     private void LateUpdate()
     {
-        Debug.Log(_playerTransform.position);
         transform.position = Vector3.SmoothDamp(transform.position, _target - _offset, ref _velocity, _cameraSmoothness);
     }
 }
