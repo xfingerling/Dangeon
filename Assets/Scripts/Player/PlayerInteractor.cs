@@ -8,7 +8,7 @@ public class PlayerInteractor : Interactor
     {
         base.Initialize();
 
-        Player = Resources.Load<Player>("Player/Player");
-        Object.Instantiate(Player);
+        Player playerPrefab = Resources.Load<Player>("Player/Player");
+        Player = Object.Instantiate(playerPrefab);
     }
 }

@@ -1,98 +1,58 @@
 using UnityEngine;
 
-public class Player : Mover
+public class Player : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
-    private bool isAlive = true;
+    [SerializeField] private float _speedX = 1;
+    [SerializeField] private float _speedY = 1;
 
-    private float vertical;
-    private float horizontal;
+    private BoxCollider2D _boxCollider;
+    private Vector3 _originalSize;
+    private float _horizontalInput;
+    private float _verticalInput;
+    private RaycastHit2D raycastHit;
 
-    protected override void Start()
+    private void Start()
     {
-        base.Start();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        _boxCollider = GetComponent<BoxCollider2D>();
+        _originalSize = transform.localScale;
     }
 
-    protected override void ReceiveDamage(Damage dmg)
+    private void Update()
     {
-        if (!isAlive)
-            return;
+        HundleInput();
 
-        base.ReceiveDamage(dmg);
-        GameManager.instance.OnHitpointChange();
+        Move(new Vector3(_horizontalInput * _speedX, _verticalInput * _speedY, 0));
     }
 
-    protected override void Death()
+    private void Move(Vector3 input)
     {
-        isAlive = false;
-        GameManager.instance.deathMenuAnim.SetTrigger("Show");
-    }
+        Vector3 moveDelta = new Vector3(input.x, input.y, 0);
 
-    private void FixedUpdate()
-    {
-        isRunning = HandleInput();
+        //Swap sprite dirrection 
+        if (moveDelta.x > 0)
+            transform.localScale = _originalSize;
+        else if (moveDelta.x < 0)
+            transform.localScale = new Vector3(_originalSize.x * -1, _originalSize.y, 0);
 
-        if (!isRunning)
-            anim.SetTrigger("Stand");
-
-        if (isAlive)
-            UpdateMotor(new Vector3(horizontal, vertical, 0));
-
-    }
-
-    private bool HandleInput()
-    {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
-
-        return horizontal != 0 || vertical != 0;
-    }
-
-    public void SwapSprite(int skinID)
-    {
-        spriteRenderer.sprite = GameManager.instance.playerSprites[skinID];
-    }
-
-    public void SwapAnimationController(int skinID)
-    {
-        anim.runtimeAnimatorController = GameManager.instance.playerAnimationControllers[skinID];
-    }
-
-    public void OnLevelUp()
-    {
-        maxHitpoint++;
-        hitpoint = maxHitpoint;
-    }
-
-    public void SetLevel(int level)
-    {
-        for (int i = 0; i < level; i++)
+        //Make sure we can move in this direction
+        raycastHit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        if (raycastHit.collider == null)
         {
-            OnLevelUp();
+            //Move
+            transform.Translate(0, moveDelta.y * Time.deltaTime, 0);
+        }
+
+        raycastHit = Physics2D.BoxCast(transform.position, _boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        if (raycastHit.collider == null)
+        {
+            //Move
+            transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
         }
     }
 
-    public void Heal(int healingAmount)
+    private void HundleInput()
     {
-        if (hitpoint == maxHitpoint)
-            return;
-
-        hitpoint += healingAmount;
-
-        if (hitpoint > maxHitpoint)
-            hitpoint = maxHitpoint;
-
-        string msg = $"+{healingAmount}hp";
-        GameManager.instance.ShowText(msg, 25, Color.green, transform.position, Vector2.up * 40, 1f);
-        GameManager.instance.OnHitpointChange();
-    }
-
-    public void Respawn()
-    {
-        Heal(maxHitpoint);
-        isAlive = true;
-        lastImmune = Time.time;
-        pushDirection = Vector3.zero;
+        _verticalInput = Input.GetAxisRaw("Vertical");
+        _horizontalInput = Input.GetAxisRaw("Horizontal");
     }
 }
