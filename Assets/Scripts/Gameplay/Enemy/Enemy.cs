@@ -5,6 +5,7 @@ public class Enemy : Mover
     [SerializeField] private float _triggerLength;
     [SerializeField] private float _chaseLength;
     [SerializeField] private float _chasingSpeed = 1;
+    [SerializeField] private int _hitpoint;
 
     private Transform _playerTransform;
     private Vector3 _startPosition;

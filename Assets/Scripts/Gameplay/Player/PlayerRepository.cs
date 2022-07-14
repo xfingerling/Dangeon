@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerRepository : MonoBehaviour
+public class PlayerRepository : Repository
 {
-    // Start is called before the first frame update
-    void Start()
+    public int Health { get; set; }
+
+    private int _defaultHealth = 10;
+
+    public override void Initialize()
     {
-        
+        Health = _defaultHealth;
+        Debug.Log($"Player health {Health}");
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnCreate()
     {
-        
+
+    }
+
+    public override void OnStart()
+    {
+
+    }
+
+    public override void Save()
+    {
+
     }
 }

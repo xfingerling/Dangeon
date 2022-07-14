@@ -14,6 +14,7 @@ public class SceneConfigLevel1 : SceneConfig
         CreateInteractor<PlayerInteractor>(interactorsMap);
         CreateInteractor<CameraInteractor>(interactorsMap);
         CreateInteractor<SpawnPositionInteractor>(interactorsMap);
+        CreateInteractor<FloatingTextInteractor>(interactorsMap);
 
         return interactorsMap;
     }
@@ -23,6 +24,7 @@ public class SceneConfigLevel1 : SceneConfig
         var repositoriesMap = new Dictionary<Type, Repository>();
 
         CreateRepository<BankRepository>(repositoriesMap);
+        CreateRepository<PlayerRepository>(repositoriesMap);
 
         return repositoriesMap;
     }
