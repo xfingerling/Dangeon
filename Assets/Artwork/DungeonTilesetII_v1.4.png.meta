@@ -3067,6 +3067,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Chest_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fad01ab318d7447926847031f7678b
+      internalID: 1138695678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3963271258094aa6e226871fa50c7
+      internalID: -1350727432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100e44016fe23584c8b8ead6543f3eda
+      internalID: -133340590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3228,14 +3291,14 @@ TextureImporter:
       DungeonTilesetII_v1.4_145: 1324991729
       DungeonTilesetII_v1.4_376: -2078985184
       NPC_wizard_5: -14803589
-      DungeonTilesetII_v1.4_479: 574513204
+      DungeonTilesetII_v1.4_215: -1278483780
       DungeonTilesetII_v1.4_360: 659911478
       DungeonTilesetII_v1.4_156: -775831442
       DungeonTilesetII_v1.4_101: 1336133224
       DungeonTilesetII_v1.4_236: -1106292339
       player_dragon_6: -1695901949
       DungeonTilesetII_v1.4_438: 1683715028
-      DungeonTilesetII_v1.4_215: -1278483780
+      DungeonTilesetII_v1.4_479: 574513204
       DungeonTilesetII_v1.4_31: -408900002
       DungeonTilesetII_v1.4_169: 441253696
       DungeonTilesetII_v1.4_256: 48430798
@@ -3259,7 +3322,6 @@ TextureImporter:
       DungeonTilesetII_v1.4_450: 1218574293
       DungeonTilesetII_v1.4_277: -1943916751
       DungeonTilesetII_v1.4_107: 827070937
-      DungeonTilesetII_v1.4_4: 1792204005
       player_8: 324687618
       DungeonTilesetII_v1.4_21: -125499
       DungeonTilesetII_v1.4_225: -1769743275
@@ -3287,6 +3349,7 @@ TextureImporter:
       DungeonTilesetII_v1.4_42: 1639939084
       DungeonTilesetII_v1.4_163: 163174526
       DungeonTilesetII_v1.4_49: -1864137675
+      Chest_0: 1792204005
       DungeonTilesetII_v1.4_411: -634119728
       DungeonTilesetII_v1.4_84: 1311134461
       DungeonTilesetII_v1.4_85: -661884727
@@ -3316,6 +3379,7 @@ TextureImporter:
       player_knight_8: -70215659
       DungeonTilesetII_v1.4_170: -1352446568
       DungeonTilesetII_v1.4_445: -510568577
+      Chest_2: -133340590
       DungeonTilesetII_v1.4_34: 1106238311
       DungeonTilesetII_v1.4_325: 1487035269
       DungeonTilesetII_v1.4_62: -598701278
@@ -3417,9 +3481,9 @@ TextureImporter:
       DungeonTilesetII_v1.4_472: 363224385
       DungeonTilesetII_v1.4_349: 1518458070
       DungeonTilesetII_v1.4_516: 1964750044
+      DungeonTilesetII_v1.4_489: 931546247
       DungeonTilesetII_v1.4_283: 21971581
       DungeonTilesetII_v1.4_285: -1277054429
-      DungeonTilesetII_v1.4_489: 931546247
       DungeonTilesetII_v1.4_288: 1297751965
       player_7: -285685895
       DungeonTilesetII_v1.4_74: -283550475
@@ -3642,6 +3706,7 @@ TextureImporter:
       Skeleton_7: -150818092
       DungeonTilesetII_v1.4_293: -900248380
       DungeonTilesetII_v1.4_414: -303021764
+      Chest_1: -1350727432
       DungeonTilesetII_v1.4_482: -1871714623
       DungeonTilesetII_v1.4_496: 973775850
       DungeonTilesetII_v1.4_196: -574100010
