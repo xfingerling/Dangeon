@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HealingFontain : Collidable
+public class HealingFountain : Collidable
 {
     [SerializeField] private int _healingPower = 1;
 
