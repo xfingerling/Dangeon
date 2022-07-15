@@ -1,9 +1,9 @@
-using UnityEngine;
+using System;
 
 public interface IInventoryItem
 {
     bool isEquipped { get; set; }
-    Types type { get; }
+    Type type { get; }
     int maxItemsInInventorySlot { get; }
     int amount { get; set; }
 
