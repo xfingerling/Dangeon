@@ -7,6 +7,7 @@ public class EnemyHitbox : Collidable
     [SerializeField] private float _pushForce = 1;
 
     private PlayerInteractor _playerInteractor;
+    private FloatingTextInteractor _floatingTextInteractor;
     private float _lastAttack;
 
     protected override void Start()
@@ -20,6 +21,7 @@ public class EnemyHitbox : Collidable
         Game.OnGameInitializedEvent -= OnGameInitialized;
 
         _playerInteractor = Game.GetInteractor<PlayerInteractor>();
+        _floatingTextInteractor = Game.GetInteractor<FloatingTextInteractor>();
     }
 
     protected override void OnCollide(Collider2D collider)
@@ -40,7 +42,8 @@ public class EnemyHitbox : Collidable
 
                 _playerInteractor.MakeDamage(this, dmg);
 
-                Game.GetInteractor<FloatingTextInteractor>().Show($"{dmg.damageAmount} DMG", 15, Color.red, transform.position, Vector3.down * 20, 2f);
+                //UI
+                _floatingTextInteractor.Show($"{dmg.damageAmount} DMG", 10, Color.red, transform.position, Vector3.down * 30, 1.5f);
             }
         }
     }
