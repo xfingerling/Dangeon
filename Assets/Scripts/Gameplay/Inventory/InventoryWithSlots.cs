@@ -174,7 +174,12 @@ public class InventoryWithSlots : IInventory
         return _slots.FindAll(slot => !slot.isEmpty && slot.itemType == itemType).ToArray();
     }
 
-    private bool TryToAddToSlot(object sender, IInventorySlot slot, IInventoryItem item)
+    public IInventorySlot[] GetAllSlots()
+    {
+        return _slots.ToArray();
+    }
+
+    public bool TryToAddToSlot(object sender, IInventorySlot slot, IInventoryItem item)
     {
         var fits = slot.amount + item.state.amount <= item.info.maxItemsInInventorySlot;
         var amountToAdd = fits ? item.state.amount : item.info.maxItemsInInventorySlot - slot.amount;

@@ -2,7 +2,7 @@ using System;
 
 public class InventorySlot : IInventorySlot
 {
-    public bool isFool => amount == capacity;
+    public bool isFool => !isEmpty && amount == capacity;
     public bool isEmpty => item == null;
     public IInventoryItem item { get; private set; }
     public Type itemType => item.type;
