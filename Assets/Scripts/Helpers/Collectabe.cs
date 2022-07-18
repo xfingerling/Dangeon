@@ -3,7 +3,7 @@ using UnityEngine;
 public class Collectabe : Collidable
 {
 
-    protected bool collected;
+    protected bool isCollected;
 
     protected override void OnCollide(Collider2D collider)
     {

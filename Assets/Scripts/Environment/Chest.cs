@@ -6,13 +6,12 @@ public class Chest : Collectabe
     [SerializeField] private Sprite _emptyChest;
 
     private FloatingTextInteractor _floatingTextInteractor;
-    private bool _isCollected;
     private SpriteRenderer _spriteRenderer;
 
     protected override void Start()
     {
         base.Start();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponentInParent<SpriteRenderer>();
 
         Game.OnGameInitializedEvent += OnGameInitialized;
     }
@@ -25,9 +24,9 @@ public class Chest : Collectabe
 
     protected override void OnCollect()
     {
-        if (!_isCollected)
+        if (!isCollected)
         {
-            _isCollected = true;
+            isCollected = true;
 
             _spriteRenderer.sprite = _emptyChest;
 
