@@ -15,7 +15,7 @@ public class SceneConfigLevel1 : SceneConfig
         CreateInteractor<CameraInteractor>(interactorsMap);
         CreateInteractor<SpawnPositionInteractor>(interactorsMap);
         CreateInteractor<FloatingTextInteractor>(interactorsMap);
-        CreateInteractor<InventoryInteractor>(interactorsMap);
+        CreateInteractor<UIInterfaceInteractor>(interactorsMap);
 
         return interactorsMap;
     }
@@ -26,7 +26,6 @@ public class SceneConfigLevel1 : SceneConfig
 
         CreateRepository<BankRepository>(repositoriesMap);
         CreateRepository<PlayerRepository>(repositoriesMap);
-        CreateRepository<InventoryRepository>(repositoriesMap);
 
         return repositoriesMap;
     }

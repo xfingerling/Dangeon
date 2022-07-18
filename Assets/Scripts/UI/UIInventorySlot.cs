@@ -15,7 +15,7 @@ public class UIInventorySlot : UISlot
 
     private void OnGameInitialized()
     {
-        _uiInventory = Game.GetInteractor<InventoryInteractor>().inventory;
+        _uiInventory = Game.GetInteractor<UIInterfaceInteractor>().inventory;
         _uiInventoryItem = GetComponentInChildren<UIInventoryItem>();
     }
 
