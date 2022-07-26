@@ -1,55 +1,27 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIInterfaceInteractor : Interactor
 {
-    private int _inventoryCapacity = 15;
+    public UIInterface UIInterface => _goUIInterface;
     public InventoryWithSlots inventory { get; private set; }
+
+    private int _inventoryCapacity = 15;
+    private UIInterface _prefabUIInterface;
+    private UIInterface _goUIInterface;
 
     //TEST
     private InventoryItemInfo _steelSwordInfo;
     private InventoryItemInfo _twoHandedSwordInfo;
-    private UIInventorySlot[] _uiSlots;
-
-    private GameObject _prefabUIInterface;
-    private GameObject _goUIInterface;
-
-    private Canvas _uiCanvas;
-    //private Transform _uiLayerPopup;
-    private Transform _uiLayerHUD;
-    private UIInventory _uiInventoryPopup;
-
-    private Button _uiInventoryButtonHUD;
 
     public override void Initialize()
     {
         //_steelSwordInfo = Resources.Load<InventoryItemInfo>("InventoryItemInfo_SteelSword");
         //_twoHandedSwordInfo = Resources.Load<InventoryItemInfo>("InventoryItemInfo_TwoHandedSword");
 
-        _prefabUIInterface = Resources.Load<GameObject>("UI/[INTERFACE]");
+        _prefabUIInterface = Resources.Load<UIInterface>("UI/[INTERFACE]");
         _goUIInterface = Object.Instantiate(_prefabUIInterface);
 
-        _uiCanvas = _goUIInterface.GetComponentInChildren<Canvas>();
-
-        //_uiLayerPopup = _uiCanvas.transform.Find("UILayerPopup");
-        _uiLayerHUD = _uiCanvas.transform.Find("UILayerHUD");
-
-        _uiInventoryPopup = _uiCanvas.GetComponentInChildren<UIInventory>();
-        _uiInventoryPopup.GetComponentInChildren<Button>().onClick.AddListener(CloseInventoryPopup);
-        _uiInventoryButtonHUD = _uiLayerHUD.transform.Find("InventoryButtonHUD").GetComponent<Button>();
-
         inventory = new InventoryWithSlots(_inventoryCapacity);
-        _uiSlots = _goUIInterface.GetComponentsInChildren<UIInventorySlot>();
-        inventory.OnInventoryStateChangeEvent += OnInventoryStateChange;
-    }
-
-    public override void OnStart()
-    {
-        //FillSlots();
-        SetupInventoryUI(inventory);
-
-        _uiInventoryPopup.gameObject.SetActive(false);
-        _uiInventoryButtonHUD.onClick.AddListener(OpenInventoryPopup);
     }
 
     //TEST
@@ -94,36 +66,7 @@ public class UIInterfaceInteractor : Interactor
     //    return rSlot;
     //}
 
-    private void SetupInventoryUI(InventoryWithSlots inventory)
-    {
-        var allSlots = inventory.GetAllSlots();
-        var allSlotsCount = allSlots.Length;
 
-        for (int i = 0; i < allSlotsCount; i++)
-        {
-            var slot = allSlots[i];
-            var uiSlot = _uiSlots[i];
 
-            uiSlot.SetSlot(slot);
-            uiSlot.Refresh();
-        }
-    }
 
-    private void OnInventoryStateChange(object sender)
-    {
-        foreach (var uiSlot in _uiSlots)
-        {
-            uiSlot.Refresh();
-        }
-    }
-
-    private void OpenInventoryPopup()
-    {
-        _uiInventoryPopup.gameObject.SetActive(true);
-    }
-
-    private void CloseInventoryPopup()
-    {
-        _uiInventoryPopup.GetComponent<Animator>().SetTrigger("Hide");
-    }
 }

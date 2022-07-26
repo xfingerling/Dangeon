@@ -1201,6 +1201,7 @@ GameObject:
   - component: {fileID: 3147933435808324108}
   - component: {fileID: 8379694916193155127}
   - component: {fileID: 3812877326335894040}
+  - component: {fileID: 6045719738879609982}
   m_Layer: 5
   m_Name: UILayerHUD
   m_TagString: Untagged
@@ -1267,6 +1268,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6045719738879609982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129731696814693331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba2b79e5b0924442b4352648a91e96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiInventoryPopup: {fileID: 4356231881719629111}
 --- !u!1 &2133384098043475648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4821,6 +4835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8361000208534337542}
+  - component: {fileID: 3124246149462009482}
   m_Layer: 5
   m_Name: '[INTERFACE]'
   m_TagString: Untagged
@@ -4846,6 +4861,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3124246149462009482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361000208534337543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f3a40ba4b60d94bb75fb7dbae75b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiLayerHUD: {fileID: 2129731696814693331}
+  _uiLayerFXUnderPopup: {fileID: 2133384098043475648}
+  _uiLayerPopup: {fileID: 2079313028262234142}
+  _uiLayerFXOverPopup: {fileID: 1705711602916754336}
+  _uiLayerLoadingScreen: {fileID: 3827243479134318612}
 --- !u!1 &8361000208801340761
 GameObject:
   m_ObjectHideFlags: 0

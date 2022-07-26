@@ -23,7 +23,7 @@ public class ActorAnimation : MonoBehaviour
                 frame = 0;
 
             int spriteIndex = frame;
-            Debug.Log(spriteIndex);
+
             _spriteRender.sprite = _idleSprites[spriteIndex];
             frame++;
             yield return new WaitForSeconds(0.1f);

@@ -15,5 +15,5 @@ MonoBehaviour:
   _id: sword
   _title: Steel Sword
   _description: Small steel sword
-  _maxItemsInInventorySlot: 5
+  _maxItemsInInventorySlot: 3
   _spriteIcon: {fileID: 1819859321, guid: 4f7c6dd146b368b4b96d1591fae068d7, type: 3}
