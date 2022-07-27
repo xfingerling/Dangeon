@@ -8,10 +8,10 @@ public class Collectabe : Collidable
     protected override void OnCollide(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
-            OnCollect();
+            OnCollect(collider);
     }
 
-    protected virtual void OnCollect()
+    protected virtual void OnCollect(Collider2D collider)
     {
 
     }

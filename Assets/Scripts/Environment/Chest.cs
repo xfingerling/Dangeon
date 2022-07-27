@@ -22,7 +22,7 @@ public class Chest : Collectabe
         _floatingTextInteractor = Game.GetInteractor<FloatingTextInteractor>();
     }
 
-    protected override void OnCollect()
+    protected override void OnCollect(Collider2D collider)
     {
         if (!isCollected)
         {
